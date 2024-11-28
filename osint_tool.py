@@ -36,8 +36,6 @@ def get_ip_info(ip):
         logging.error(f"Error fetching IP info: {e}")
         return None
 
-# (Removed) Fetch domain info using Shodan
-
 # Save raw JSON data to a file
 def save_json_data(data, filename):
     try:
